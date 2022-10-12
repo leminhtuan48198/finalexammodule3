@@ -13,11 +13,7 @@ public class StudentDAO {
     private String jdbcStudentname = "root";
     private String jdbcPassword = "123456";
 
-    private static final String INSERT_StudentS_SQL = "INSERT INTO Students (name, email, country) VALUES (?, ?, ?);";
-    private static final String SELECT_Student_BY_ID = "select * from view_student_classroom where id =?";
-    private static final String SELECT_ALL_StudentS = "select * from view_student_classroom";
-    private static final String DELETE_StudentS_SQL = "delete from student where id = ?;";
-    private static final String UPDATE_StudentS_SQL = "update student set name = ?, dateOfBirth=?, address=?, phoneNumber=?,email= ?, idclass=? where id = ?;";
+
 
     public StudentDAO() {
     }
